@@ -1,0 +1,13 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/KnowledgeQA",
+    "pages/AnatomyBrowser",
+    "pages/StructureDetail",
+    "pages/Favorites",
+    "pages/History",
+    "pages/KnowledgeManage",
+    "pages/SourceDetail",
+    "pages/About"
+  ]
+}

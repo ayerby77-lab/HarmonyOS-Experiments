@@ -1,0 +1,9 @@
+{
+  "name": "model-forwarder",
+  "version": "1.0.0",
+  "description": "CFKit 云函数：转发问答请求到模型供应商 API，返回 SSE 流式响应。客户端不持有密钥，所有凭据在云端环境变量中。",
+  "main": "index.js",
+  "dependencies": {
+    "@cfkit/runtime": "^1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "ohosTest",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "deviceTypes": ["phone"],
+    "deliveryWithInstall": false,
+    "installationFree": false
+  }
+}

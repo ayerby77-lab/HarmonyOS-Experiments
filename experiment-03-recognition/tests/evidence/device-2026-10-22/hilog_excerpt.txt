@@ -1,0 +1,8 @@
+10-22 09:53:03.106 25216 25216 I A00001/ModelLoader: 设备 ABI: arm64-v8a, 支持: yes
+10-22 09:53:03.165 25216 25216 I A00001/ModelLoader: 从 rawfile 复制模型: rawfile/models/yolov13n.onnx -> /data/storage/el2/base/haps/entry/files/models/yolov13n.onnx
+10-22 09:53:03.175 25216 25216 E A00001/ModelLoader: 模型复制失败: Invalid argument
+10-22 09:54:30.907 26897 26897 I A00001/ModelLoader: 设备 ABI: arm64-v8a, 支持: yes
+10-22 09:54:30.921 26897 26897 E A00001/ModelLoader: SHA-256 校验异常: create C obj failed.
+10-22 09:54:30.921 26897 26897 W A00001/ModelLoader: 沙箱模型 hash 不符，重新复制
+10-22 09:54:30.921 26897 26897 I A00001/ModelLoader: 从 rawfile 复制模型: rawfile/models/yolov13n.onnx -> /data/storage/el2/base/haps/entry/files/models/yolov13n.onnx
+10-22 09:54:30.929 26897 26897 E A00001/ModelLoader: 模型复制失败: Invalid argument

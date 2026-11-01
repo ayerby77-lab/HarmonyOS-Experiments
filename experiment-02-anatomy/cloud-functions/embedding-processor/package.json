@@ -1,0 +1,9 @@
+{
+  "name": "embedding-processor",
+  "version": "1.0.0",
+  "description": "CFKit 云函数：调用云端 embedding 服务生成向量。当客户端 TestEmbeddingService 不足以支撑生产时启用此函数。",
+  "main": "index.js",
+  "dependencies": {
+    "@cfkit/runtime": "^1.0.0"
+  }
+}

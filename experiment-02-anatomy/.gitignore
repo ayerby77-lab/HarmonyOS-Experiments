@@ -1,0 +1,8 @@
+.hvigor/
+oh_modules/
+node_modules/
+**/build/
+dist/
+local.properties
+.idea/
+.DS_Store

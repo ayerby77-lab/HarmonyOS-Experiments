@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "端侧识别与云端记录管理"
+    },
+    {
+      "name": "camera_permission_reason",
+      "value": "用于拍摄物品照片进行识别"
+    }
+  ]
+}

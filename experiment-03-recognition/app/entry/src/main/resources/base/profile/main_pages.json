@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/RecordList",
+    "pages/RecordDetail",
+    "pages/CloudRecords"
+  ]
+}

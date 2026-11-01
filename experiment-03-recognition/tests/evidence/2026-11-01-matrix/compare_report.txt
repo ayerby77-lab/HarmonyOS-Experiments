@@ -1,0 +1,114 @@
+=== 设备 benchmark 解析: 22 条目 ===
+
+--- 01_single_object_cup.jpg  mode=SYNC  (1280x853) ---
+  boxes: device=1  host=1    time: pre=90ms infer=76ms post=16ms total=182ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓  cls=41 host_conf=0.9418 dev=0.9473 Δconf=0.0055 IoU=0.995 maxΔbox=1.2
+
+--- 01_single_object_cup.jpg  mode=TASK_POOL  (1280x853) ---
+  boxes: device=1  host=1    time: pre=95ms infer=75ms post=17ms total=187ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓  cls=41 host_conf=0.9418 dev=0.9473 Δconf=0.0055 IoU=0.995 maxΔbox=1.2
+
+--- 02_multi_object_bus.jpg  mode=SYNC  (810x1080) ---
+  boxes: device=5  host=5    time: pre=108ms infer=55ms post=15ms total=178ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓  cls=5 host_conf=0.9370 dev=0.9380 Δconf=0.0010 IoU=0.998 maxΔbox=0.9
+  ✓  cls=0 host_conf=0.8958 dev=0.8940 Δconf=0.0018 IoU=0.988 maxΔbox=1.6
+  ✓  cls=0 host_conf=0.8677 dev=0.8734 Δconf=0.0057 IoU=0.993 maxΔbox=0.5
+  ✓  cls=0 host_conf=0.8517 dev=0.8589 Δconf=0.0072 IoU=0.993 maxΔbox=0.9
+  ✓  cls=0 host_conf=0.4992 dev=0.5123 Δconf=0.0131 IoU=0.972 maxΔbox=5.8
+
+--- 02_multi_object_bus.jpg  mode=TASK_POOL  (810x1080) ---
+  boxes: device=5  host=5    time: pre=104ms infer=42ms post=17ms total=163ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓  cls=5 host_conf=0.9370 dev=0.9380 Δconf=0.0010 IoU=0.998 maxΔbox=0.9
+  ✓  cls=0 host_conf=0.8958 dev=0.8940 Δconf=0.0018 IoU=0.988 maxΔbox=1.6
+  ✓  cls=0 host_conf=0.8677 dev=0.8734 Δconf=0.0057 IoU=0.993 maxΔbox=0.5
+  ✓  cls=0 host_conf=0.8517 dev=0.8589 Δconf=0.0072 IoU=0.993 maxΔbox=0.9
+  ✓  cls=0 host_conf=0.4992 dev=0.5123 Δconf=0.0131 IoU=0.972 maxΔbox=5.8
+
+--- 03_same_class_overlap_mugs.jpg  mode=SYNC  (1920x1277) ---
+  boxes: device=2  host=2    time: pre=94ms infer=43ms post=15ms total=152ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ~  cls=41 host_conf=0.8560 dev=0.7545 Δconf=0.1015 IoU=0.988 maxΔbox=3.0
+  ~  cls=41 host_conf=0.2702 dev=0.3453 Δconf=0.0751 IoU=0.982 maxΔbox=5.1
+
+--- 03_same_class_overlap_mugs.jpg  mode=TASK_POOL  (1920x1277) ---
+  boxes: device=2  host=2    time: pre=90ms infer=42ms post=15ms total=147ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ~  cls=41 host_conf=0.8560 dev=0.7545 Δconf=0.1015 IoU=0.988 maxΔbox=3.0
+  ~  cls=41 host_conf=0.2702 dev=0.3453 Δconf=0.0751 IoU=0.982 maxΔbox=5.1
+
+--- 04_multi_object_desk.jpg  mode=SYNC  (1920x1280) ---
+  boxes: device=2  host=5    time: pre=100ms infer=84ms post=17ms total=201ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓  cls=76 host_conf=0.8101 dev=0.8023 Δconf=0.0078 IoU=0.983 maxΔbox=2.6
+  ~  cls=58 host_conf=0.3804 dev=0.3389 Δconf=0.0415 IoU=0.976 maxΔbox=3.5
+  ✗ host-only  cls=63 conf=0.8079
+  ✗ host-only  cls=66 conf=0.3884
+  ✗ host-only  cls=63 conf=0.2857
+
+--- 04_multi_object_desk.jpg  mode=TASK_POOL  (1920x1280) ---
+  boxes: device=2  host=5    time: pre=95ms infer=44ms post=16ms total=156ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓  cls=76 host_conf=0.8101 dev=0.8023 Δconf=0.0078 IoU=0.983 maxΔbox=2.6
+  ~  cls=58 host_conf=0.3804 dev=0.3389 Δconf=0.0415 IoU=0.976 maxΔbox=3.5
+  ✗ host-only  cls=63 conf=0.8079
+  ✗ host-only  cls=66 conf=0.3884
+  ✗ host-only  cls=63 conf=0.2857
+
+--- 05_long_horizontal_street.jpg  mode=SYNC  (1920x793) ---
+  boxes: device=0  host=0    time: pre=67ms infer=53ms post=17ms total=137ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓ 双空结果一致
+--- 05_long_horizontal_street.jpg  mode=TASK_POOL  (1920x793) ---
+  boxes: device=0  host=0    time: pre=61ms infer=50ms post=16ms total=127ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓ 双空结果一致
+--- 06_long_vertical_cars.jpg  mode=SYNC  (1920x4138) ---
+  boxes: device=6  host=7    time: pre=72ms infer=52ms post=16ms total=140ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ~  cls=2 host_conf=0.6847 dev=0.5435 Δconf=0.1412 IoU=0.985 maxΔbox=5.2
+  ~  cls=2 host_conf=0.6825 dev=0.3175 Δconf=0.3650 IoU=0.819 maxΔbox=53.3
+  ~  cls=2 host_conf=0.6228 dev=0.6491 Δconf=0.0263 IoU=0.875 maxΔbox=20.2
+  ~  cls=2 host_conf=0.6128 dev=0.6697 Δconf=0.0569 IoU=0.948 maxΔbox=3.8
+  ~  cls=2 host_conf=0.5384 dev=0.4382 Δconf=0.1002 IoU=0.975 maxΔbox=6.1
+  ✓  cls=7 host_conf=0.4603 dev=0.4832 Δconf=0.0229 IoU=0.989 maxΔbox=3.7
+  ✗ host-only  cls=2 conf=0.4113
+
+--- 06_long_vertical_cars.jpg  mode=TASK_POOL  (1920x4138) ---
+  boxes: device=6  host=7    time: pre=70ms infer=42ms post=18ms total=130ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ~  cls=2 host_conf=0.6847 dev=0.5435 Δconf=0.1412 IoU=0.985 maxΔbox=5.2
+  ~  cls=2 host_conf=0.6825 dev=0.3175 Δconf=0.3650 IoU=0.819 maxΔbox=53.3
+  ~  cls=2 host_conf=0.6228 dev=0.6491 Δconf=0.0263 IoU=0.875 maxΔbox=20.2
+  ~  cls=2 host_conf=0.6128 dev=0.6697 Δconf=0.0569 IoU=0.948 maxΔbox=3.8
+  ~  cls=2 host_conf=0.5384 dev=0.4382 Δconf=0.1002 IoU=0.975 maxΔbox=6.1
+  ✓  cls=7 host_conf=0.4603 dev=0.4832 Δconf=0.0229 IoU=0.989 maxΔbox=3.7
+  ✗ host-only  cls=2 conf=0.4113
+
+[07a_exif_orientation6.jpg SYNC] host 无参考（图片不在本次列表）
+[07a_exif_orientation6.jpg TASK_POOL] host 无参考（图片不在本次列表）
+[07b_exif_orientation8.jpg SYNC] host 无参考（图片不在本次列表）
+[07b_exif_orientation8.jpg TASK_POOL] host 无参考（图片不在本次列表）
+--- 08_blank_gray.jpg  mode=SYNC  (1280x960) ---
+  boxes: device=0  host=0    time: pre=105ms infer=45ms post=16ms total=166ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓ 双空结果一致
+--- 08_blank_gray.jpg  mode=TASK_POOL  (1280x960) ---
+  boxes: device=0  host=0    time: pre=103ms infer=41ms post=16ms total=160ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓ 双空结果一致
+[09_corrupted.jpg SYNC] FAIL: image decode failed
+[10_huge_8000x6000.jpg SYNC] FAIL: image decode failed
+--- 11_rgba_alpha_cup.png  mode=SYNC  (1280x853) ---
+  boxes: device=1  host=1    time: pre=97ms infer=48ms post=16ms total=161ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓  cls=41 host_conf=0.9418 dev=0.9473 Δconf=0.0055 IoU=0.995 maxΔbox=1.2
+
+--- 11_rgba_alpha_cup.png  mode=TASK_POOL  (1280x853) ---
+  boxes: device=1  host=1    time: pre=90ms infer=42ms post=16ms total=148ms
+  modelSha256: ✓ f39e5a3b1763423b...
+  ✓  cls=41 host_conf=0.9418 dev=0.9473 Δconf=0.0055 IoU=0.995 maxΔbox=1.2
+

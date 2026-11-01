@@ -1,0 +1,26 @@
+10-22 14:39:21.931 22918 22918 I A00000/SmartItemApp: onWindowStageCreate start
+10-22 14:39:21.931 22918 22918 I A00001/ModelLoader: 设备 ABI: arm64-v8a, 支持: yes
+10-22 14:39:21.962 22918 22918 I A00000/SmartItemApp: loadContent success
+10-22 14:39:21.967 22918 22918 I A00001/ModelLoader: 设备 ABI: arm64-v8a, 支持: yes
+10-22 14:39:21.981 22918 22918 I A00000/RecordService: RDB opened, version=1
+10-22 14:39:21.999 22918 22918 I A00000/SmartItemApp: RecordService init ok=true
+10-22 14:39:22.001 22918 22918 I A00001/ModelLoader: 模型已在沙箱且校验通过: /data/storage/el2/base/haps/entry/files/models/yolov13n.onnx
+10-22 14:39:22.145 22918 22918 I A00005/NativeBridge: nativeInit result: OK:CE=3 sessIdx=8
+10-22 14:39:22.145 22918 22918 I A00003/RecognitionService: native session 创建成功，耗时 144 ms (OK:CE=3 sessIdx=8)
+10-22 14:39:22.145 22918 22918 I A00003/RecognitionService: 识别服务初始化成功
+10-22 14:39:22.145 22918 22918 I A00000/SmartItemApp: RecognitionService init available=true
+10-22 14:39:22.146 22918 22918 I A00001/ModelLoader: 模型已在沙箱且校验通过: /data/storage/el2/base/haps/entry/files/models/yolov13n.onnx
+10-22 14:39:22.146 22918 22918 I A00005/NativeBridge: native 已初始化
+10-22 14:39:25.627 23049 23049 I A00000/SmartItemApp: onWindowStageCreate start
+10-22 14:39:25.628 23049 23049 I A00001/ModelLoader: 设备 ABI: arm64-v8a, 支持: yes
+10-22 14:39:25.654 23049 23049 I A00000/SmartItemApp: loadContent success
+10-22 14:39:25.660 23049 23049 I A00001/ModelLoader: 设备 ABI: arm64-v8a, 支持: yes
+10-22 14:39:25.665 23049 23049 I A00000/RecordService: RDB opened, version=1
+10-22 14:39:25.680 23049 23049 I A00000/SmartItemApp: RecordService init ok=true
+10-22 14:39:25.689 23049 23049 I A00001/ModelLoader: 模型已在沙箱且校验通过: /data/storage/el2/base/haps/entry/files/models/yolov13n.onnx
+10-22 14:39:25.824 23049 23049 I A00005/NativeBridge: nativeInit result: OK:CE=3 sessIdx=8
+10-22 14:39:25.824 23049 23049 I A00003/RecognitionService: native session 创建成功，耗时 135 ms (OK:CE=3 sessIdx=8)
+10-22 14:39:25.824 23049 23049 I A00003/RecognitionService: 识别服务初始化成功
+10-22 14:39:25.824 23049 23049 I A00000/SmartItemApp: RecognitionService init available=true
+10-22 14:39:25.825 23049 23049 I A00001/ModelLoader: 模型已在沙箱且校验通过: /data/storage/el2/base/haps/entry/files/models/yolov13n.onnx
+10-22 14:39:25.825 23049 23049 I A00005/NativeBridge: native 已初始化

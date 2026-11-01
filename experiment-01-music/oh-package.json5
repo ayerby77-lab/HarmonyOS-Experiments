@@ -1,0 +1,7 @@
+{
+  "modelVersion": "6.0.0",
+  "name": "music-app",
+  "version": "1.0.0",
+  "description": "音乐播放应用基础骨架",
+  "dependencies": {}
+}

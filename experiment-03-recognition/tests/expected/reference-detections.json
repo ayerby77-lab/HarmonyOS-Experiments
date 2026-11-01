@@ -1,0 +1,248 @@
+[
+  {
+    "file": "01_single_object_cup.jpg",
+    "width": 1280,
+    "height": 853,
+    "scale": 0.5,
+    "padLeft": 0,
+    "padTop": 106,
+    "boxes": [
+      {
+        "classId": 41,
+        "confidence": 0.9418,
+        "left": 472.2,
+        "top": 23.4,
+        "right": 1112.7,
+        "bottom": 485.4
+      }
+    ]
+  },
+  {
+    "file": "02_multi_object_bus.jpg",
+    "width": 810,
+    "height": 1080,
+    "scale": 0.592593,
+    "padLeft": 80,
+    "padTop": 0,
+    "boxes": [
+      {
+        "classId": 5,
+        "confidence": 0.937,
+        "left": 17.4,
+        "top": 229.4,
+        "right": 808.2,
+        "bottom": 735.7
+      },
+      {
+        "classId": 0,
+        "confidence": 0.8958,
+        "left": 48.9,
+        "top": 397.8,
+        "right": 242.5,
+        "bottom": 902.5
+      },
+      {
+        "classId": 0,
+        "confidence": 0.8677,
+        "left": 222.7,
+        "top": 406.6,
+        "right": 344.2,
+        "bottom": 860.8
+      },
+      {
+        "classId": 0,
+        "confidence": 0.8517,
+        "left": 667.1,
+        "top": 391.6,
+        "right": 810.0,
+        "bottom": 876.2
+      },
+      {
+        "classId": 0,
+        "confidence": 0.4992,
+        "left": 1.3,
+        "top": 567.4,
+        "right": 69.7,
+        "bottom": 872.2
+      }
+    ]
+  },
+  {
+    "file": "03_same_class_overlap_mugs.jpg",
+    "width": 1920,
+    "height": 1277,
+    "scale": 0.333333,
+    "padLeft": 0,
+    "padTop": 107,
+    "boxes": [
+      {
+        "classId": 41,
+        "confidence": 0.856,
+        "left": 702.7,
+        "top": 66.1,
+        "right": 1218.5,
+        "bottom": 846.4
+      },
+      {
+        "classId": 41,
+        "confidence": 0.2702,
+        "left": 1229.6,
+        "top": 79.3,
+        "right": 1750.3,
+        "bottom": 845.5
+      }
+    ]
+  },
+  {
+    "file": "04_multi_object_desk.jpg",
+    "width": 1920,
+    "height": 1280,
+    "scale": 0.333333,
+    "padLeft": 0,
+    "padTop": 106,
+    "boxes": [
+      {
+        "classId": 76,
+        "confidence": 0.8101,
+        "left": 1566.1,
+        "top": 694.3,
+        "right": 1906.6,
+        "bottom": 1048.2
+      },
+      {
+        "classId": 63,
+        "confidence": 0.8079,
+        "left": 1423.6,
+        "top": 2.9,
+        "right": 1920.0,
+        "bottom": 891.8
+      },
+      {
+        "classId": 66,
+        "confidence": 0.3884,
+        "left": 1634.0,
+        "top": 152.8,
+        "right": 1920.0,
+        "bottom": 672.5
+      },
+      {
+        "classId": 58,
+        "confidence": 0.3804,
+        "left": 0.0,
+        "top": 0.0,
+        "right": 544.4,
+        "bottom": 311.5
+      },
+      {
+        "classId": 63,
+        "confidence": 0.2857,
+        "left": 544.9,
+        "top": 440.6,
+        "right": 1451.9,
+        "bottom": 1122.0
+      }
+    ]
+  },
+  {
+    "file": "05_long_horizontal_street.jpg",
+    "width": 1920,
+    "height": 793,
+    "scale": 0.333333,
+    "padLeft": 0,
+    "padTop": 188,
+    "boxes": []
+  },
+  {
+    "file": "06_long_vertical_cars.jpg",
+    "width": 1920,
+    "height": 4138,
+    "scale": 0.154664,
+    "padLeft": 171,
+    "padTop": 0,
+    "boxes": [
+      {
+        "classId": 2,
+        "confidence": 0.6847,
+        "left": 290.2,
+        "top": 3629.9,
+        "right": 1316.3,
+        "bottom": 4137.9
+      },
+      {
+        "classId": 2,
+        "confidence": 0.6825,
+        "left": 1143.9,
+        "top": 3692.4,
+        "right": 1632.5,
+        "bottom": 4087.3
+      },
+      {
+        "classId": 2,
+        "confidence": 0.6228,
+        "left": 1459.5,
+        "top": 3737.1,
+        "right": 1920.0,
+        "bottom": 4023.7
+      },
+      {
+        "classId": 2,
+        "confidence": 0.6128,
+        "left": 1148.0,
+        "top": 3688.2,
+        "right": 1545.5,
+        "bottom": 3857.8
+      },
+      {
+        "classId": 2,
+        "confidence": 0.5384,
+        "left": 0.0,
+        "top": 3832.1,
+        "right": 1011.6,
+        "bottom": 4138.0
+      },
+      {
+        "classId": 7,
+        "confidence": 0.4603,
+        "left": 282.9,
+        "top": 3630.3,
+        "right": 1316.2,
+        "bottom": 4137.8
+      },
+      {
+        "classId": 2,
+        "confidence": 0.4113,
+        "left": 0.7,
+        "top": 3837.7,
+        "right": 648.6,
+        "bottom": 4138.0
+      }
+    ]
+  },
+  {
+    "file": "08_blank_gray.jpg",
+    "width": 1280,
+    "height": 960,
+    "scale": 0.5,
+    "padLeft": 0,
+    "padTop": 80,
+    "boxes": []
+  },
+  {
+    "file": "11_rgba_alpha_cup.png",
+    "width": 1280,
+    "height": 853,
+    "scale": 0.5,
+    "padLeft": 0,
+    "padTop": 106,
+    "boxes": [
+      {
+        "classId": 41,
+        "confidence": 0.9418,
+        "left": 472.2,
+        "top": 23.4,
+        "right": 1112.7,
+        "bottom": 485.4
+      }
+    ]
+  }
+]

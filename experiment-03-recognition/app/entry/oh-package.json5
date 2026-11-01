@@ -1,0 +1,8 @@
+{
+  "name": "entry",
+  "version": "0.1.0",
+  "description": "智能物品识别助手主模块",
+  "dependencies": {
+    "@ohos/onnxruntime": "1.0.0"
+  }
+}

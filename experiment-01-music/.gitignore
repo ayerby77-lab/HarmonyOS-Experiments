@@ -1,0 +1,19 @@
+.hvigor/
+.hvigor-cache/
+.ohpm/
+oh_modules/
+build/
+**/build/
+local.properties
+.idea/
+*.p12
+*.p7b
+*.cer
+.DS_Store
+.hvigor-tools/
+
+# Local assistant state and verification output
+.workbuddy-ai/
+verification/
+.env
+.env.*

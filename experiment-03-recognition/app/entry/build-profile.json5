@@ -1,0 +1,20 @@
+{
+  "apiType": "stageMode",
+  "buildOption": {
+    "externalNativeOptions": {
+      "path": "./src/main/cpp/CMakeLists.txt",
+      "targets": [
+        "onnx_native"
+      ]
+    }
+  },
+  "targets": [
+    {
+      "name": "default"
+    },
+    {
+      "name": "ohosTest",
+      "runtimeOS": "HarmonyOS"
+    }
+  ]
+}

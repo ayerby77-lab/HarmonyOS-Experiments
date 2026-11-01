@@ -1,0 +1,22 @@
+Archive:  app/entry/build/default/outputs/default/entry-default-unsigned.hap
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     1561  10-22-2026 14:39   module.json
+      828  10-22-2026 14:39   resources.index
+   186460  10-22-2026 14:39   libs/armeabi-v7a/libaki_jsbind.so
+  1110480  10-22-2026 14:39   libs/armeabi-v7a/libc++_shared.so
+ 32481152  10-22-2026 14:39   libs/arm64-v8a/liblibrary.so
+    72744  10-22-2026 14:39   libs/arm64-v8a/libonnx_native.so
+   225376  10-22-2026 14:39   libs/arm64-v8a/libaki_jsbind.so
+  1262504  10-22-2026 14:39   libs/arm64-v8a/libc++_shared.so
+   234480  10-22-2026 14:39   libs/x86_64/libaki_jsbind.so
+  1294568  10-22-2026 14:39   libs/x86_64/libc++_shared.so
+ 10171778  10-22-2026 14:39   resources/rawfile/models/yolov13n.onnx
+       84  10-22-2026 14:39   resources/base/profile/main_pages.json
+      290  10-22-2026 14:39   resources/base/media/app_icon.svg
+   612624  10-22-2026 14:39   ets/modules.abc
+   286069  10-22-2026 14:39   ets/sourceMaps.map
+      540  10-22-2026 14:39   pack.info
+     1187  10-22-2026 14:39   pkgContextInfo.json
+---------                     -------
+ 47942725                     17 files
